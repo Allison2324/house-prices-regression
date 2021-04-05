@@ -1,0 +1,11 @@
+{
+  "0": [
+    "LotFrontage",
+    "BsmtFinSF1",
+    "2ndFlrSF",
+    "BsmtFullBath",
+    "BedroomAbvGr",
+    "Fireplaces",
+    "MiscVal"
+  ]
+}

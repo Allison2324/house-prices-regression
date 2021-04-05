@@ -1,0 +1,98 @@
+{
+  "description": {
+    "X": [
+      "MSSubClass",
+      "MSZoning",
+      "LotFrontage",
+      "Neighborhood",
+      "HouseStyle",
+      "RoofStyle",
+      "Exterior1st",
+      "MasVnrType",
+      "Foundation",
+      "BsmtQual",
+      "BsmtFinSF1",
+      "HeatingQC",
+      "2ndFlrSF",
+      "BsmtFullBath",
+      "BedroomAbvGr",
+      "KitchenQual",
+      "Fireplaces",
+      "GarageType",
+      "MiscVal",
+      "SaleCondition"
+    ],
+    "final_columns": [
+      "LotFrontage",
+      "Neighborhood",
+      "HouseStyle",
+      "RoofStyle",
+      "Exterior1st",
+      "MasVnrType",
+      "Foundation",
+      "BsmtQual",
+      "BsmtFinSF1",
+      "HeatingQC",
+      "2ndFlrSF",
+      "BsmtFullBath",
+      "BedroomAbvGr",
+      "KitchenQual",
+      "Fireplaces",
+      "GarageType",
+      "MiscVal"
+    ],
+    "y": "SalePrice",
+    "metrics": "mean_absolute_percentage_error"
+  },
+  "operations": [
+    {
+      "operation_number": 1,
+      "operation_name": "drop_columns",
+      "params": {
+        "in_columns": [
+          "MSSubClass",
+          "MSZoning",
+          "SaleCondition"
+        ]
+      }
+    },
+    {
+      "operation_number": 2,
+      "operation_name": "encode_labels",
+      "params": {
+        "in_columns": [
+          "Neighborhood",
+          "HouseStyle",
+          "RoofStyle",
+          "Exterior1st",
+          "MasVnrType",
+          "Foundation",
+          "BsmtQual",
+          "HeatingQC",
+          "KitchenQual",
+          "GarageType"
+        ]
+      }
+    },
+    {
+      "operation_number": 3,
+      "operation_name": "fill_nans",
+      "params": {
+        "in_columns": [
+          [
+            "LotFrontage",
+            "BsmtFinSF1",
+            "2ndFlrSF",
+            "BsmtFullBath",
+            "BedroomAbvGr",
+            "Fireplaces",
+            "MiscVal"
+          ]
+        ],
+        "methods": [
+          "zero"
+        ]
+      }
+    }
+  ]
+}
