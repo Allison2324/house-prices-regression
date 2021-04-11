@@ -31,7 +31,6 @@ class DataLoader(object):
                     'HeatingQC',
                     'KitchenQual',
                     'GarageType']
-        self.dataset[str_cols] = self.dataset[str_cols].fillna('None')
         le = LabelEncoder()
         for i in str_cols:
             le.fit(self.dataset[i])

@@ -4,10 +4,10 @@ MSSubClass,MSZoning,LotFrontage,Neighborhood,HouseStyle,RoofStyle,Exterior1st,Ma
 30,RM,56.0,OldTown,1Story,Gable,WdShing,None,TA,CBlock,0,Gd,0,1028,0,TA,1,Detchd,0,Normal,115000
 50,RM,50.0,BrkSide,1.5Fin,Gable,CemntBd,None,TA,CBlock,399,Ex,660,1664,0,TA,2,Detchd,0,Normal,159000
 20,RL,89.0,Timber,1Story,Hip,VinylSd,Stone,Gd,PConc,1022,Ex,0,1620,1,Ex,1,Attchd,0,Normal,315500
-180,RM,21.0,MeadowV,SFoyer,Gable,CemntBd,None,TA,CBlock,150,Ex,0,630,1,TA,0,,0,Normal,75500
+180,RM,21.0,MeadowV,SFoyer,Gable,CemntBd,None,TA,CBlock,150,Ex,0,630,1,TA,0,None,0,Normal,75500
 50,RL,,Crawfor,1.5Fin,Gable,VinylSd,BrkFace,Gd,CBlock,341,Ex,817,1954,0,Gd,2,Attchd,0,Normal,311500
 160,RL,24.0,NPkVill,2Story,Gable,Plywood,None,TA,CBlock,311,Fa,601,1456,0,TA,1,Attchd,0,Normal,146000
-180,RM,21.0,MeadowV,SFoyer,Gable,CemntBd,None,TA,CBlock,131,Gd,0,630,1,TA,0,,0,Normal,84500
+180,RM,21.0,MeadowV,SFoyer,Gable,CemntBd,None,TA,CBlock,131,Gd,0,630,1,TA,0,None,0,Normal,84500
 50,RL,59.0,Edwards,1.5Fin,Gable,MetalSd,None,TA,PConc,0,TA,521,1393,0,TA,0,Attchd,0,Normal,135500
 50,RL,52.0,SWISU,1.5Fin,Gable,Wd Sdng,None,TA,BrkTil,0,Gd,600,1477,0,TA,1,Detchd,0,Normal,145000
 20,RL,62.0,Mitchel,1Story,Gable,HdBoard,None,TA,CBlock,510,TA,0,874,1,TA,0,Attchd,600,Normal,130000
@@ -31,7 +31,7 @@ MSSubClass,MSZoning,LotFrontage,Neighborhood,HouseStyle,RoofStyle,Exterior1st,Ma
 120,FV,47.0,Somerst,1Story,Gable,VinylSd,None,Gd,PConc,0,Ex,0,1352,0,Gd,1,Attchd,0,Partial,208900
 50,RL,92.0,BrkSide,1.5Fin,Gable,AsbShng,None,TA,PConc,0,Gd,316,1252,0,TA,0,Attchd,0,Normal,127000
 60,RL,85.0,NridgHt,2Story,Gable,VinylSd,BrkFace,Gd,PConc,866,Ex,1040,2046,1,Gd,1,BuiltIn,0,Normal,284000
-50,RL,138.0,ClearCr,1.5Fin,Gable,MetalSd,None,TA,CBlock,152,TA,971,3086,0,Ex,1,,0,Normal,200500
+50,RL,138.0,ClearCr,1.5Fin,Gable,MetalSd,None,TA,CBlock,152,TA,971,3086,0,Ex,1,None,0,Normal,200500
 20,RL,,NAmes,1Story,Gable,VinylSd,None,TA,CBlock,228,Ex,0,952,0,TA,0,Detchd,0,Normal,135750
 20,RL,116.0,Somerst,1Story,Gable,VinylSd,Stone,Gd,PConc,63,Ex,0,1636,1,Gd,1,Attchd,0,Normal,255000
 20,RL,80.0,NAmes,1Story,Gable,HdBoard,None,TA,CBlock,892,TA,0,1136,1,TA,1,Attchd,0,Normal,140000
@@ -67,7 +67,7 @@ MSSubClass,MSZoning,LotFrontage,Neighborhood,HouseStyle,RoofStyle,Exterior1st,Ma
 20,RL,84.0,Edwards,1Story,Gable,WdShing,None,TA,CBlock,477,TA,0,2158,1,Gd,1,Attchd,0,Normal,243000
 50,RL,60.0,OldTown,1.5Fin,Gable,MetalSd,None,TA,CBlock,0,Gd,299,1034,0,TA,0,Detchd,0,Normal,109000
 60,RL,85.0,Timber,2Story,Hip,VinylSd,Stone,Gd,PConc,871,Ex,780,2262,1,Gd,2,Attchd,0,Normal,305000
-20,RL,63.0,Mitchel,1Story,Gable,HdBoard,None,TA,PConc,212,TA,0,974,0,TA,0,,0,Abnorml,93500
+20,RL,63.0,Mitchel,1Story,Gable,HdBoard,None,TA,PConc,212,TA,0,974,0,TA,0,None,0,Abnorml,93500
 160,FV,34.0,Somerst,2Story,Gable,MetalSd,BrkFace,TA,PConc,419,Gd,729,1458,0,TA,1,Detchd,0,Normal,176000
 90,RL,64.0,SawyerW,1Story,Gable,Plywood,None,TA,Slab,0,TA,0,1535,0,TA,0,Attchd,0,Alloca,118858
 20,RL,55.0,Sawyer,1Story,Hip,HdBoard,None,TA,CBlock,250,Ex,0,1211,0,TA,1,Attchd,0,Normal,134000
@@ -93,7 +93,7 @@ MSSubClass,MSZoning,LotFrontage,Neighborhood,HouseStyle,RoofStyle,Exterior1st,Ma
 60,RL,80.0,NWAmes,2Story,Mansard,WdShing,BrkFace,TA,CBlock,493,Ex,840,1620,0,TA,0,Attchd,0,Normal,152000
 20,RL,76.0,Mitchel,1Story,Gable,HdBoard,None,TA,CBlock,546,TA,0,816,0,TA,0,Attchd,0,Normal,124500
 60,RL,86.0,SawyerW,2Story,Gable,Plywood,BrkFace,Gd,CBlock,28,Ex,1177,2730,1,Gd,1,Attchd,0,Normal,301000
-90,RL,72.0,Sawyer,1Story,Hip,HdBoard,None,TA,CBlock,0,TA,0,1768,0,TA,0,,0,Normal,136500
+90,RL,72.0,Sawyer,1Story,Hip,HdBoard,None,TA,CBlock,0,TA,0,1768,0,TA,0,None,0,Normal,136500
 20,RL,65.0,Gilbert,1Story,Gable,VinylSd,None,Gd,PConc,28,Ex,0,1316,0,Gd,1,Attchd,0,Partial,169990
 50,RL,55.0,BrkSide,1.5Fin,Gable,Wd Sdng,None,Gd,BrkTil,0,Gd,596,1548,0,Ex,0,Detchd,0,Normal,205000
 160,FV,35.0,Somerst,2Story,Hip,MetalSd,BrkFace,Gd,PConc,450,Ex,739,1452,1,Gd,0,Detchd,0,Normal,183900
@@ -109,8 +109,8 @@ MSSubClass,MSZoning,LotFrontage,Neighborhood,HouseStyle,RoofStyle,Exterior1st,Ma
 120,RL,,StoneBr,1Story,Gable,HdBoard,None,Gd,PConc,1148,TA,0,1742,1,Gd,1,Attchd,0,Normal,275000
 20,RL,57.0,CollgCr,1Story,Gable,VinylSd,None,TA,PConc,686,Ex,0,990,0,TA,0,Detchd,0,Normal,145000
 60,RL,70.0,NAmes,2Story,Gable,Plywood,BrkFace,TA,PConc,650,TA,1040,2080,0,Fa,2,Attchd,0,Family,135000
-30,RM,51.0,BrkSide,1Story,Gable,AsbShng,None,Fa,BrkTil,0,Fa,0,800,0,Fa,1,,0,Normal,60000
-20,RL,60.0,CollgCr,1Story,Gable,HdBoard,BrkFace,TA,CBlock,616,TA,0,1040,0,TA,0,,0,Normal,124000
+30,RM,51.0,BrkSide,1Story,Gable,AsbShng,None,Fa,BrkTil,0,Fa,0,800,0,Fa,1,None,0,Normal,60000
+20,RL,60.0,CollgCr,1Story,Gable,HdBoard,BrkFace,TA,CBlock,616,TA,0,1040,0,TA,0,None,0,Normal,124000
 20,RL,,Sawyer,1Story,Gable,HdBoard,None,TA,CBlock,659,Ex,0,1040,1,TA,0,Detchd,0,Normal,127000
 70,RM,51.0,BrkSide,2Story,Gable,MetalSd,None,TA,BrkTil,0,Ex,574,1513,0,TA,0,Detchd,0,Normal,137500
 60,RL,79.0,CollgCr,2Story,Gable,VinylSd,None,Gd,PConc,0,Ex,858,1797,0,Gd,0,Attchd,0,Normal,213500
@@ -132,7 +132,7 @@ MSSubClass,MSZoning,LotFrontage,Neighborhood,HouseStyle,RoofStyle,Exterior1st,Ma
 60,RL,64.0,CollgCr,2Story,Gable,VinylSd,None,Gd,PConc,490,Ex,812,1582,0,Gd,0,Attchd,0,Normal,185900
 20,RL,88.0,Timber,1Story,Hip,VinylSd,BrkFace,Gd,PConc,1460,Ex,0,2028,1,Gd,2,Attchd,0,Partial,369900
 60,RL,80.0,CollgCr,2Story,Gable,VinylSd,None,TA,PConc,0,Ex,913,1779,0,Gd,0,Attchd,0,Normal,197900
-75,RM,92.0,OldTown,2.5Fin,Gable,Wd Sdng,None,TA,CBlock,0,Ex,929,2229,0,TA,0,,0,Abnorml,104000
+75,RM,92.0,OldTown,2.5Fin,Gable,Wd Sdng,None,TA,CBlock,0,Ex,929,2229,0,TA,0,None,0,Abnorml,104000
 20,C (all),50.0,IDOTRR,1Story,Gable,AsbShng,None,TA,CBlock,50,TA,0,480,1,TA,0,Detchd,0,Abnorml,35311
 20,RL,96.0,NridgHt,1Story,Hip,CemntBd,Stone,Ex,PConc,1172,Ex,0,1718,1,Ex,1,Attchd,0,Normal,337500
 120,RL,65.0,NridgHt,1Story,Hip,MetalSd,BrkFace,Ex,PConc,1540,Ex,0,1702,1,Ex,1,Attchd,0,Partial,367294
@@ -148,30 +148,30 @@ MSSubClass,MSZoning,LotFrontage,Neighborhood,HouseStyle,RoofStyle,Exterior1st,Ma
 50,RL,86.0,Crawfor,1.5Fin,Gable,BrkFace,None,Gd,CBlock,223,Gd,1037,2057,0,Gd,1,Attchd,0,Normal,250000
 20,RL,67.0,CollgCr,1Story,Gable,VinylSd,None,Gd,PConc,0,Ex,0,1430,0,Gd,0,Attchd,0,Normal,187100
 85,RL,60.0,CollgCr,SFoyer,Gable,WdShing,None,TA,CBlock,660,Gd,0,768,0,TA,0,Detchd,0,Normal,133900
-30,RL,45.0,Edwards,1Story,Gable,Stucco,None,TA,BrkTil,41,TA,0,864,1,TA,0,,0,Normal,67000
+30,RL,45.0,Edwards,1Story,Gable,Stucco,None,TA,BrkTil,41,TA,0,864,1,TA,0,None,0,Normal,67000
 30,RL,80.0,Crawfor,1Story,Gable,MetalSd,None,TA,BrkTil,0,Ex,0,1180,0,Fa,1,Detchd,0,Normal,137500
 60,RL,69.0,NAmes,2Story,Gable,VinylSd,BrkFace,TA,CBlock,512,TA,688,1348,0,TA,1,Attchd,0,Normal,155000
-20,RL,,Crawfor,1Story,Hip,Wd Sdng,,Gd,PConc,1219,TA,0,2515,1,TA,2,Attchd,0,Alloca,200624
+20,RL,,Crawfor,1Story,Hip,Wd Sdng,None,Gd,PConc,1219,TA,0,2515,1,TA,2,Attchd,0,Alloca,200624
 90,RL,80.0,NAmes,2Story,Gable,MetalSd,BrkFace,TA,CBlock,443,TA,1169,2274,0,TA,0,Detchd,0,Normal,154300
 30,RM,60.0,IDOTRR,1Story,Hip,Wd Sdng,None,TA,BrkTil,0,Fa,0,1077,0,TA,1,Detchd,0,Normal,91000
-90,RL,60.0,NAmes,2Story,Gable,VinylSd,None,TA,CBlock,0,TA,896,1792,0,TA,0,,0,Normal,136000
+90,RL,60.0,NAmes,2Story,Gable,VinylSd,None,TA,CBlock,0,TA,896,1792,0,TA,0,None,0,Normal,136000
 90,RL,60.0,Sawyer,SFoyer,Gable,Plywood,None,TA,CBlock,1198,TA,0,1258,2,TA,0,CarPort,0,Alloca,108959
 20,RL,75.0,NAmes,1Story,Hip,Wd Sdng,None,TA,CBlock,0,Ex,0,1375,0,TA,1,Attchd,0,Normal,140000
-30,RL,58.0,Edwards,1Story,Gable,Wd Sdng,None,TA,BrkTil,348,Ex,0,605,1,TA,0,,0,Normal,86000
+30,RL,58.0,Edwards,1Story,Gable,Wd Sdng,None,TA,BrkTil,348,Ex,0,605,1,TA,0,None,0,Normal,86000
 20,RL,80.0,Sawyer,1Story,Hip,HdBoard,None,TA,CBlock,594,Ex,0,1144,1,TA,1,Attchd,400,Normal,131400
 20,RL,85.0,CollgCr,1Story,Gable,VinylSd,None,Gd,PConc,0,Ex,0,1234,0,Gd,0,Attchd,0,Normal,179900
 90,RL,64.0,OldTown,SFoyer,Gable,Plywood,None,TA,CBlock,1056,Gd,0,1056,2,TA,0,Detchd,600,Normal,144000
 20,RL,71.0,Timber,1Story,Gable,VinylSd,Stone,Gd,PConc,1513,Ex,0,1646,1,Gd,1,Attchd,0,Partial,293077
 20,RL,68.0,Edwards,1Story,Hip,HdBoard,Stone,TA,CBlock,383,Ex,0,1526,0,TA,1,Basment,0,Normal,144500
 50,RL,80.0,NAmes,1.5Fin,Gable,MetalSd,None,TA,CBlock,442,TA,384,1216,0,TA,0,Detchd,0,Abnorml,118500
-90,RL,80.0,NAmes,1Story,Gable,BrkFace,None,TA,CBlock,0,Ex,0,1800,0,TA,0,,0,Normal,141000
+90,RL,80.0,NAmes,1Story,Gable,BrkFace,None,TA,CBlock,0,Ex,0,1800,0,TA,0,None,0,Normal,141000
 60,FV,66.0,Somerst,2Story,Hip,VinylSd,BrkFace,Gd,PConc,649,Ex,975,1950,0,Gd,1,Detchd,0,Normal,239000
 60,RL,69.0,CollgCr,2Story,Gable,CemntBd,Stone,Gd,PConc,0,Ex,1092,2574,0,Ex,1,BuiltIn,0,Partial,276000
 60,RL,85.0,StoneBr,2Story,Hip,CemntBd,Stone,Gd,PConc,240,Ex,876,2868,0,Ex,1,BuiltIn,0,Partial,556581
 70,RL,,ClearCr,2Story,Gable,MetalSd,None,TA,CBlock,0,Ex,1196,2403,0,TA,2,Attchd,0,Normal,244400
 20,RL,90.0,NridgHt,1Story,Gable,VinylSd,None,Gd,PConc,1274,Ex,0,1944,1,Ex,3,Attchd,0,Normal,360000
-45,RL,55.0,OldTown,1.5Unf,Gable,MetalSd,None,TA,CBlock,0,Ex,0,882,0,TA,0,,0,Normal,103200
-50,RL,60.0,SWISU,1.5Fin,Gable,Wd Sdng,None,TA,BrkTil,0,Ex,0,1522,0,TA,0,,0,Normal,102000
+45,RL,55.0,OldTown,1.5Unf,Gable,MetalSd,None,TA,CBlock,0,Ex,0,882,0,TA,0,None,0,Normal,103200
+50,RL,60.0,SWISU,1.5Fin,Gable,Wd Sdng,None,TA,BrkTil,0,Ex,0,1522,0,TA,0,None,0,Normal,102000
 160,RM,24.0,Blueste,2Story,Gable,MetalSd,None,TA,CBlock,81,TA,840,1556,1,TA,1,Attchd,0,Normal,151000
 50,RL,85.0,NoRidge,1.5Fin,Hip,HdBoard,BrkFace,Gd,PConc,700,Ex,743,2872,0,Gd,1,Attchd,0,Normal,285000
 50,RL,80.0,ClearCr,1.5Fin,Gable,WdShing,None,TA,CBlock,0,TA,468,1588,0,TA,1,Detchd,0,Normal,134432
@@ -211,7 +211,7 @@ MSSubClass,MSZoning,LotFrontage,Neighborhood,HouseStyle,RoofStyle,Exterior1st,Ma
 20,RL,,NAmes,1Story,Gable,HdBoard,BrkFace,TA,CBlock,340,TA,0,892,0,TA,0,Attchd,0,Normal,110000
 60,RL,116.0,SawyerW,2Story,Gable,HdBoard,BrkFace,Gd,CBlock,700,Gd,1121,2243,1,Gd,1,Attchd,0,Normal,225000
 20,RL,71.0,Sawyer,1Story,Gable,Plywood,BrkFace,TA,CBlock,0,Ex,0,1285,0,TA,1,Attchd,0,Normal,143500
-20,RL,77.0,NAmes,1Story,Gable,Plywood,None,TA,CBlock,569,Fa,0,1225,1,TA,0,,400,Normal,128950
+20,RL,77.0,NAmes,1Story,Gable,Plywood,None,TA,CBlock,569,Fa,0,1225,1,TA,0,None,400,Normal,128950
 160,FV,34.0,Somerst,2Story,Gable,MetalSd,BrkFace,TA,PConc,381,Gd,729,1471,0,TA,0,Detchd,0,Normal,172500
 20,RL,73.0,ClearCr,1Story,Flat,Plywood,None,TA,CBlock,226,Ex,0,1363,1,TA,2,Attchd,0,Normal,241500
 20,FV,75.0,Somerst,1Story,Gable,VinylSd,Stone,Gd,PConc,1078,Ex,0,1566,1,Gd,0,Attchd,0,Normal,262500
@@ -244,7 +244,7 @@ MSSubClass,MSZoning,LotFrontage,Neighborhood,HouseStyle,RoofStyle,Exterior1st,Ma
 60,RL,,SawyerW,2Story,Gable,HdBoard,None,Gd,PConc,402,Ex,730,1744,0,Gd,0,Attchd,0,Normal,194500
 60,RL,66.0,StoneBr,2Story,Hip,VinylSd,BrkFace,Ex,PConc,0,Ex,1519,2945,0,Gd,1,BuiltIn,0,Partial,438780
 60,RL,76.0,NWAmes,2Story,Hip,HdBoard,BrkFace,Gd,CBlock,442,TA,933,1876,0,Gd,1,Attchd,0,Normal,185000
-190,RL,70.0,Edwards,2Story,Gable,MetalSd,None,TA,CBlock,969,TA,527,1347,1,TA,0,,0,Normal,107500
+190,RL,70.0,Edwards,2Story,Gable,MetalSd,None,TA,CBlock,969,TA,527,1347,1,TA,0,None,0,Normal,107500
 80,RL,101.0,NAmes,SLvl,Gable,Plywood,BrkFace,TA,CBlock,371,Gd,0,1431,0,TA,1,Basment,0,Normal,165000
 20,RL,54.0,Timber,1Story,Gable,HdBoard,BrkFace,TA,CBlock,980,Gd,0,1137,1,Gd,1,Attchd,0,Normal,176000
 120,RM,44.0,MeadowV,1Story,Gable,CemntBd,None,TA,PConc,840,TA,0,1060,1,TA,1,Attchd,0,Normal,129900
@@ -269,7 +269,7 @@ MSSubClass,MSZoning,LotFrontage,Neighborhood,HouseStyle,RoofStyle,Exterior1st,Ma
 120,RM,,CollgCr,1Story,Gable,VinylSd,BrkFace,Gd,PConc,685,Ex,0,848,1,Gd,0,Attchd,0,Normal,144000
 20,RL,60.0,NAmes,1Story,Gable,Plywood,None,TA,CBlock,0,TA,0,1005,0,Fa,1,Detchd,0,Normal,115000
 80,RL,,Gilbert,SLvl,Gable,VinylSd,None,TA,PConc,250,Ex,656,1430,0,TA,1,BuiltIn,0,Normal,180000
-20,RL,107.0,NridgHt,1Story,Gable,VinylSd,,Ex,PConc,1386,Ex,0,2076,1,Ex,1,Attchd,0,Partial,465000
+20,RL,107.0,NridgHt,1Story,Gable,VinylSd,None,Ex,PConc,1386,Ex,0,2076,1,Ex,1,Attchd,0,Partial,465000
 120,RL,41.0,StoneBr,1Story,Gable,HdBoard,None,Gd,PConc,733,Gd,0,1337,1,Gd,1,Attchd,0,Normal,180000
 60,RL,75.0,Somerst,2Story,Gable,VinylSd,None,Gd,PConc,341,Ex,858,1971,0,Gd,1,Attchd,0,Normal,253000
 160,RM,36.0,MeadowV,2Story,Gable,CemntBd,None,TA,CBlock,129,TA,576,1112,0,TA,0,Attchd,0,Normal,85000
@@ -280,7 +280,7 @@ MSSubClass,MSZoning,LotFrontage,Neighborhood,HouseStyle,RoofStyle,Exterior1st,Ma
 20,RL,65.0,ClearCr,1Story,Flat,Wd Sdng,None,TA,CBlock,1324,Ex,0,1473,2,Ex,2,Attchd,0,Partial,143000
 50,RL,60.0,NAmes,1.5Fin,Gable,MetalSd,None,TA,CBlock,580,TA,510,1558,1,TA,1,Attchd,0,Normal,140000
 60,RL,65.0,CollgCr,2Story,Gable,VinylSd,BrkFace,Gd,PConc,0,Ex,840,1776,0,Gd,1,Attchd,0,Normal,192500
-180,RM,21.0,MeadowV,SFoyer,Gable,CemntBd,None,TA,CBlock,553,Ex,0,630,1,Ex,0,,0,Abnorml,92000
+180,RM,21.0,MeadowV,SFoyer,Gable,CemntBd,None,TA,CBlock,553,Ex,0,630,1,Ex,0,None,0,Abnorml,92000
 60,FV,65.0,Somerst,2Story,Gable,VinylSd,None,Gd,PConc,0,Ex,798,1576,0,Gd,0,Attchd,0,Partial,197000
 30,RL,52.0,OldTown,1Story,Gable,VinylSd,None,Gd,BrkTil,0,Ex,0,792,0,Gd,0,Detchd,0,Normal,109500
 20,RL,79.0,CollgCr,1Story,Hip,VinylSd,Stone,Gd,PConc,1288,Ex,0,1718,1,Gd,1,Attchd,0,Normal,297000

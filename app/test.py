@@ -26,6 +26,20 @@ print("_________________________________")
 print(train)
 print(val)
 
+str_columns = ['Neighborhood',
+               'HouseStyle',
+               'RoofStyle',
+               'Exterior1st',
+               'MasVnrType',
+               'ExterQual',
+               'Foundation',
+               'HeatingQC',
+               'KitchenQual',
+               'GarageType']
+
+train[str_columns] = train.loc[:, str_columns].fillna('None')
+val[str_columns] = val.loc[:, str_columns].fillna('None')
+
 train.to_csv("data/train.csv", index=False)
 val.to_csv("data/val.csv", index=False)
 
