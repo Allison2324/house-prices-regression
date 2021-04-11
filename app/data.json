@@ -1,11 +1,1 @@
-{
-  "0": [
-    "LotFrontage",
-    "BsmtFinSF1",
-    "2ndFlrSF",
-    "BsmtFullBath",
-    "BedroomAbvGr",
-    "Fireplaces",
-    "MiscVal"
-  ]
-}
+{"0":["MSSubClass","MSZoning","LotFrontage","Neighborhood","HouseStyle","RoofStyle","Exterior1st","MasVnrType","ExterQual","Foundation","BsmtFinSF1","HeatingQC","2ndFlrSF","GrLivArea","BsmtFullBath","KitchenQual","Fireplaces","GarageType","MiscVal","SaleCondition","SalePrice"]}

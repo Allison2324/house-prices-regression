@@ -1,6 +1,6 @@
 import pickle
 
-from ..settings.constants import SAVED_ESTIMATOR
+from settings.constants import SAVED_ESTIMATOR
 
 
 class Predictor:

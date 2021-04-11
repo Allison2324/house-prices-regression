@@ -1,10 +1,10 @@
-from sklearn.tree import DecisionTreeRegressor
+from sklearn.ensemble import RandomForestRegressor
 
 
 class Estimator:
     @staticmethod
     def fit(train_x, train_y):
-        return DecisionTreeRegressor(random_state=42).fit(train_x, train_y)
+        return RandomForestRegressor(random_state=42).fit(train_x, train_y)
 
     @staticmethod
     def predict(trained, test_x):

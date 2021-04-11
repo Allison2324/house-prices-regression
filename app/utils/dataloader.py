@@ -6,9 +6,6 @@ from sklearn.preprocessing import LabelEncoder
 
 
 class DataLoader(object):
-    def __init__(self):
-        self.dataset = []
-
     def fit(self, dataset):
         self.dataset = dataset.copy()
 
@@ -29,11 +26,12 @@ class DataLoader(object):
                     'RoofStyle',
                     'Exterior1st',
                     'MasVnrType',
+                    'ExterQual',
                     'Foundation',
-                    'BsmtQual',
                     'HeatingQC',
                     'KitchenQual',
                     'GarageType']
+        self.dataset[str_cols] = self.dataset[str_cols].fillna('None')
         le = LabelEncoder()
         for i in str_cols:
             le.fit(self.dataset[i])
